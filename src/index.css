@@ -27,54 +27,6 @@ footer {
 	border: 2px solid red;
 }
 
-.bframe {
-  border: 1px solid blue;
-}
-
-.sidenav-trigger {
-  display: none !important;
-  padding: 5px;
-  padding-left: 20px;
-}
-
-.nav-wrapper {
-  display: flex;
-}
-
-
-
-@media screen and (max-width: 992px){
-  .sidenav-trigger {
-    display: inline-block !important;
-  }
-
-  .scc-banner-container {
-    height: 400px !important;
-  }
-  
-}
-
-@media screen and (max-width: 1122px){
-  
-  .scc-flex-center {
-    justify-content: center !important;
-  }
-
-  .scc-header-title {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 600px){
-  
-  .scc-left-border {
-    border-left: none !important;
-    border-top: 1px solid #E1E1E1;
-    margin-top: 20px !important;
-    padding-top: 20px !important;
-  }
-}
-
 
 html{
   margin:0 !important;
@@ -133,17 +85,9 @@ a {
   cursor: pointer !important;
 }
 
-.h100{
-  height: 100% !important;
-}
 
 .container {
     width: 90% !important;
-}
-
-.lbl-err-txt {
-     color: red;    
-     font-size: 12px;        
 }
 
 .default-image {
@@ -184,12 +128,12 @@ a {
   background-size: cover; 
 }
 
-.timeline-image {
+.mountain-image {
   background-image: url('./assets/planin.png') !important;
   background-size: cover; 
 }
 
-.calendar-image {
+.memory-image {
   background-image: url('./assets/memorija.jpg') !important;
   background-size: cover; 
 }
@@ -225,16 +169,6 @@ a {
 }
 .work-card:hover .default-image {
   transform: scale(1.5); 
-}
-
-.openSansHeader {
-    font-family: Open Sans, Arial, sans-serif;
-    /*font-family: GillSans, Calibri, Trebuchet, sans-serif;*/
-    text-transform: uppercase;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 15px;
-    color: #F29191;
 }
 
 .html-tag {
@@ -349,65 +283,11 @@ a {
 }
 }
 
-.rdw-editor-wrapper {
-  background-color: #dcecff;
-  min-height: 400px;
-}
-
-.admin-nav-list li {
-  height: 50px;
-  line-height: 50px;
-  padding-left: 20px;
-  font-weight: 600;
-  cursor: pointer;
-  color: #41546c;
-  border-radius: 25px;
-  margin-bottom: 10px;
-}
-
 .shadow {
   -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   box-shadow: 0 1px 5px rgba(57, 63, 72, 0.3);
 }
-
-.uglycard {
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-.shadow2 {
-  box-shadow: 0 -4px 5px rgb(57 63 72 / 30%)
-}
-
-.admin-nav-list li:hover {
-  background-color: #f1f6fc;
-}
-
-.selected-item {
-  background-color: #f1f6fc;
-
-}
-
-/* MATERIALIZE TABS*/
-.scc-tab {
- color: #eb3155 !important;
- font-weight: normal;
-}
-
-.scc-tab-active {
-  color: #eb3155 !important;
-  font-weight: bold;
-}
-
-.scc-tab-active:focus {
-  background-color: #f3899e2f !important;
-}
-
-.indicator {
-  background-color: #d86a80 !important;
-}
-/* MATERIALIZE TABS*/
 
 .home-root{
     min-height: 100vh; 
@@ -427,100 +307,6 @@ a {
     width : 100% !important;
 }
 
-.main-footer{
-    color: #fff;
-    width: 100% !important;
-    height: 50px !important ;
-    background: #000;
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
-    z-index: 100000;
-  }
-
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  .table-container {
-    border: 1px solid #dddddd;
-    border-bottom: 0px;
-  }
-
-  .table-content > div {
-    border-bottom: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-
-  .table-header {
-    text-align: left;
-    padding: 8px;
-    width: 100%;
-    border-bottom: 1px solid #dddddd;
-
-  }
-
-  .table-header span {
-    font-weight: bold;
-  }
-
-  th {
-    padding-left: 10px !important;
-  }
-  th span {
-    float: right;
-    margin-right: 10px;
-  }
-
-  td span {
-    float: right;
-    margin-right: 10px;
-  }
-
-  .banner-container {
-    height: 300px;
-    width: 100%;
-  }
-  
-  .main-text{
-      color: white;
-      font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      font-size: 54px;
-      text-shadow: 2px 2px 10px #222222;
-      line-height: 76px;
-      border-bottom: 6px solid teal;
-  }
-  
-  .main-sub-text{
-    /*font-family: Open Sans, Arial, sans-serif;*/
-      font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
-      
-      font-weight: 500;
-      font-style: normal;
-      font-size: 19px;
-      color: #ffff;
-      line-height: 25px;
-  }
-  .post-card:hover {
-    cursor: pointer;
-  }
-  .post-card:hover .post-title {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
   .text-font {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -531,18 +317,3 @@ a {
     font-family: 'Lobster', cursive;
 
   }
-
-  .title-font {
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  .posts-card-font {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-  }
-
-  strong {
-    font-weight: bold !important;
-  }
-

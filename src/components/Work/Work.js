@@ -31,7 +31,7 @@ export default class Work extends Component {
         let result = null;
 
         try {
-            result = this['generateWork' + workId]();;
+            result = this['generateWork' + workId]();
         } catch (error) {
             return result;
         }
@@ -64,7 +64,7 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Finalni projekat za ReactJS. Website koji pruža mogućnost rentiranja bicikala. Korisnik se može registrovati odnosno ulogovati, izabrati željeni broj artikala, dodati ih u korpu, kao kontaktirati admina.
+                            Final project for ReactJS course. A website that provides the possibility of renting bicycles. The user can register or log in, select the desired number of items, add them to the cart and posibility to contact the admin.
                         </h4>
                     </div>
                 </div>
@@ -192,7 +192,7 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Memory game one of the projects done within the course. If the user matches the images in less than 5 attempts, they will win.
+                            Memory game is one of the projects done within the course. If the user matches the images in less than 5 attempts, they will win.
                         </h4>
                     </div>
                 </div>
@@ -341,7 +341,8 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                        Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        </h4>
+                            Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        
+                        </h4>
                     </div>
                 </div>
                 <div className=""  style={{ display:'flex',justifyContent: 'center', position: 'relative',marginTop: 50, marginBottom: 100}}>

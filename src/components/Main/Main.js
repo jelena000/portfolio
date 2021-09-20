@@ -20,7 +20,7 @@ const data = [
     {
         id : 3,
         title: 'Memory Game',
-        backgroundClass : 'calendar-image',
+        backgroundClass : 'memory-image',
         langs: ['react', 'css'],
   
     },
@@ -32,14 +32,14 @@ const data = [
     },
     {
         id : 5,
-        title: 'Moja Bašta',
+        title: 'My Garden',
         backgroundClass : 'nameti-image',
         langs: ['wordpress', 'css'],
     },
     {
         id : 6,
         title: 'Mountains',
-        backgroundClass : 'timeline-image',
+        backgroundClass : 'mountain-image',
         langs: ['php', 'mysql','js','html', 'css'],
     }
   ];
@@ -63,8 +63,7 @@ export default class Main extends Component {
                                 <h2>All in one video</h2>
                             </div>
                             <div style={{position: 'relative'}}>
-                                <iframe src="https://player.vimeo.com/video/574284914?badge=0&amp;autopause=0&amp;autoplay=1&amp;loop=0&amp;player_id=0&amp;app_id=58479"  style={{width: '100%', height: 700}}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen  title="videofinal.mp4"></iframe>
-                            </div>
+                            <iframe src="https://player.vimeo.com/video/609922954?h=b91ba7d840&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{width: '100%', height: 700}} title="myvideo.mp4"></iframe>                            </div>
                         </div>
                     </div>
                 </div>
