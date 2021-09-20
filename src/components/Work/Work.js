@@ -15,6 +15,8 @@ import erDiagram from '../../assets/erDiagram.png';
 import planina1 from '../../assets/planina1.png';
 import planina2 from '../../assets/planina2.png';
 import planina3 from '../../assets/planina3.png';
+import blogovi from '../../assets/blogovi.png';
+import blogovi2 from '../../assets/blog2.png';
 
 export default class Work extends Component {
 
@@ -134,10 +136,10 @@ export default class Work extends Component {
                 <div className="row">
                     <div className="screenshots container row">
                         <div className="col s12 m6">
-                            <img src={memory1} style={{height: 255, width: 555,}} />
+                            <img src={blogovi} style={{height: 255, width: 555,}} />
                         </div>
                         <div className="col s12 m6">
-                            <img src={memory2} style={{height: 255, width: 555}} />
+                            <img src={blogovi2} style={{height: 255, width: 555}} />
                         </div>
                     </div>
                 </div>
