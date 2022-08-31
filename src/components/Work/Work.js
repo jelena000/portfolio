@@ -17,6 +17,7 @@ import planina2 from '../../assets/planina2.png';
 import planina3 from '../../assets/planina3.png';
 import blogovi from '../../assets/blogovi.png';
 import blogovi2 from '../../assets/blog2.png';
+import git from '../../assets/git.svg';
 
 export default class Work extends Component {
 
@@ -46,6 +47,10 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>Bike Rental</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/course-site.git"} style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>                 
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -132,6 +137,10 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>My Digital Diary</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/domaci01_zad3.git"} style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/domaci01_zad3.git</a>
+                    </div> 
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -180,6 +189,10 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>Memory Game</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/domaci01_zad2.git"} style={{color:'black', fontSize:15, marginLeft:10}}>https://github.com/jelena000/domaci01_zad2.git</a>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -226,6 +239,10 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>Converter</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/domaci01_zad1.git"} style={{color:'black', fontSize:15, marginLeft:10}}>https://github.com/jelena000/domaci01_zad1.git</a>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="screenshots container row">

@@ -16,7 +16,7 @@ export default class Header extends Component {
                     <div className="container" style={{maxWidth : '100%', width: '100% !important'}}>
                         <div className="nav-wrapper row " style={{justifyContent: 'center'}}>
                             <div className="col s12 centered-container " style={{ marginLeft : 0, marginTop : 0, height: 100}}>
-                                 <a href="javascript:void(0)" className="brand-logo header-font" >
+                                 <a href="#" className="brand-logo header-font" >
                                     <span style={{fontSize: 30, fontWeight: 'bold', color:'black'}}>
                                         JeLena
                                     </span>
