@@ -57,8 +57,8 @@ export default class Cards extends Component {
         const { selected } = this.state;
         
         return (
-            <div className="row " style={{  marginTop: 10, justifyContent: 'center', width: '80%'}}>
-              <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} className="row">
+            <div className="row main-cards-container">
+              <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', paddingTop: 10}} className="row">
                
                 <div onClick={() => { this.setState({ selected : 1})}} className="button shadow" style={{ width: 200 , height: 40, backgroundColor: '#ff63cc', fontSize: selected === 1 ? 18 : 15,paddingTop: selected===1 ? 8 : 10, textAlign: 'center', margin: 9, borderRadius: 90, backgroundColor: selected === 1 ? "#fff" : ""}}>
                     <span style={{color: '#e10bb9', fontWeight: 500}}>Work</span>
@@ -67,7 +67,7 @@ export default class Cards extends Component {
                     <span style={{color: '#82a7cd', fontWeight: 500}}>Skills</span>
                 </div>
               </div>
-              {this.state.selected === 1 ? <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: 100, justifyContent: 'flex-start'}} className="row">
+              {this.state.selected === 1 ? <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: 60, justifyContent: 'flex-start'}} className="row">
                 {this.props.data.map(ch => (
                     <Card {...ch} key={ch.id}/>
                 ))}

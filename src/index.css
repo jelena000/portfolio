@@ -148,6 +148,16 @@ a {
   background-size: cover; 
 }
 
+.codehelper-image {
+    background-image: url('./assets/codehelper2.png') !important;
+    background-size: cover; 
+}
+
+
+.hwr-image {
+    background-image: url('./assets/hwr1.png') !important;
+    background-size: cover; 
+}
 .button {
   background-color: #fff9e6;
  /* background-color: #fedcdc;*/
@@ -235,19 +245,35 @@ a {
 }
 
 .card-tag {
-  padding: 4px;
-  border-radius: 5px;
+  padding: 14px;
+  border-radius: 1115px;
   border: 1px solid #fff;
   background-color: #fff;
-  font-size: 9px;
+  font-size: 15px;
   font-weight: 700;
   color: brown;
-  margin-right: 5px;
+  margin: 0px;
 }
 
 .card-tag-row {
-  padding: 20px;
-  padding-bottom: 0px;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.tags-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .tags-container {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .card-tag-header {
@@ -317,3 +343,15 @@ a {
     font-family: 'Lobster', cursive;
 
   }
+
+  .main-cards-container {
+    justify-content: center;
+    width: 80%;
+  }
+
+  
+@media only screen and (max-width: 600px) {
+  .main-cards-container {
+    width: 95% !important;
+  }
+}

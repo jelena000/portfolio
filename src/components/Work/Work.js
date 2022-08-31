@@ -17,6 +17,16 @@ import planina2 from '../../assets/planina2.png';
 import planina3 from '../../assets/planina3.png';
 import blogovi from '../../assets/blogovi.png';
 import blogovi2 from '../../assets/blog2.png';
+
+import codehelper5 from '../../assets/codehelper5.png';
+import codehelper2 from '../../assets/codehelper6.png';
+import codehelper3 from '../../assets/codehelper7.png';
+import codehelper4 from '../../assets/codehelper8.png';
+
+import hwr1 from '../../assets/hwr1.png';
+import hwr2 from '../../assets/hwr2.png';
+import hwr3 from '../../assets/hwr3.png';
+import hwr4 from '../../assets/hwr4.png';
 import git from '../../assets/git.svg';
 
 export default class Work extends Component {
@@ -49,8 +59,8 @@ export default class Work extends Component {
                     <h2>Bike Rental</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
-                    </div>                 
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -76,16 +86,15 @@ export default class Work extends Component {
                     </div>
                 </div>
                 <div className="row"  style={{ justifyContent: 'center', position: 'relative',marginTop: 50, maxWidth: 900}}>
-                    <div className="col s12 m6" style={{ paddingTop: 100,}}>
+                    <div className="col s12 m12" style={{ paddingTop: 100,}}>
                         <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
                             <span className="text-font" style={{color: '#fff'}}>Languages</span>
                         </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left', paddingBottom: 20, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                 
                                 <div className="card-tag-row">
                                     <span className={'card-tag react-tag'} > REACT</span>
-                                    <span className="text-font" style={{fontSize: 15, color: '#000000', }}>(react-router, redux, react-swiper, recharts)</span>
                                 </div>
                                 <div className="card-tag-row">
                                     <span className={'card-tag css-tag'} > CSS</span>
@@ -98,30 +107,6 @@ export default class Work extends Component {
                                 </div>
                                 <div className="card-tag-row">
                                     <span className={'card-tag bootstrap-tag'} > BOOTSTRAP</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s12 m6" style={{ paddingTop: 100, paddingBottom: 100}}>
-                        <div className="card-tag-header"  style={{backgroundColor: '#e10b0b82'}}>
-                            <span className="text-font" style={{color: '#fff'}}>Features</span>
-                        </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div className="card-tag-content" >
-                                <div className="card-tag-row card-row" >
-                                    <span className="text-font" >Sign in and Sign up</span>
-                                </div>
-                                <div className="card-tag-row card-row">
-                                    <span className="text-font" >Shopping Cart</span>
-                                </div>
-                                <div className="card-tag-row card-row">
-                                    <span className="text-font" >Local Storage</span>
-                                </div>
-                                <div className="card-tag-row card-row">
-                                    <span className="text-font" >Google Maps</span>
-                                </div>
-                                <div className="card-tag-row card-row">
-                                    <span className="text-font" >Responsive</span>
                                 </div>
                             </div>
                         </div>
@@ -139,8 +124,8 @@ export default class Work extends Component {
                     <h2>My Digital Diary</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/domaci01_zad3.git"} style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/domaci01_zad3.git</a>
-                    </div> 
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -163,12 +148,11 @@ export default class Work extends Component {
                         <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
                             <span className="text-font" style={{color: '#fff'}}>Languages</span>
                         </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
                                 
                                 <div className="card-tag-row">
                                     <span className={'card-tag react-tag'} > REACT</span>
-                                    <span className="text-font" style={{fontSize: 15, color: '#000000', }}>(react-router)</span>
                                 </div>
                                 <div className="card-tag-row">
                                     <span className={'card-tag css-tag'} > CSS</span>
@@ -191,8 +175,8 @@ export default class Work extends Component {
                     <h2>Memory Game</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/domaci01_zad2.git"} style={{color:'black', fontSize:15, marginLeft:10}}>https://github.com/jelena000/domaci01_zad2.git</a>
-                    </div>
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -216,12 +200,11 @@ export default class Work extends Component {
                         <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
                             <span className="text-font" style={{color: '#fff'}}>Languages</span>
                         </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
                                 
                                 <div className="card-tag-row">
                                     <span className={'card-tag react-tag'} > REACT</span>
-                                    <span className="text-font" style={{fontSize: 15, color: '#000000', }}>(react-router, redux, react-swiper, recharts)</span>
                                 </div>
                                 <div className="card-tag-row">
                                     <span className={'card-tag css-tag'} > CSS</span>
@@ -241,8 +224,8 @@ export default class Work extends Component {
                     <h2>Converter</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/domaci01_zad1.git"} style={{color:'black', fontSize:15, marginLeft:10}}>https://github.com/jelena000/domaci01_zad1.git</a>
-                    </div>
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -266,8 +249,8 @@ export default class Work extends Component {
                         <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
                             <span className="text-font" style={{color: '#fff'}}>Languages</span>
                         </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
                                 
                                 <div className="card-tag-row">
                                     <span className={'card-tag react-tag'} > REACT</span>
@@ -289,6 +272,10 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>My Garden</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row ">
@@ -318,8 +305,8 @@ export default class Work extends Component {
                         <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
                             <span className="text-font" style={{color: '#fff'}}>Languages</span>
                         </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
                                 
                                 <div className="card-tag-row">
                                     <span className={'card-tag wordpress-tag'} > WORDPRESS</span>
@@ -340,6 +327,10 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>Mountains</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row">
@@ -369,8 +360,136 @@ export default class Work extends Component {
                         <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
                             <span className="text-font" style={{color: '#fff'}}>Languages</span>
                         </div>
-                        <div style={{ height: 300, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
-                            <div style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                                
+                                <div className="card-tag-row">
+                                    <span className={'card-tag php-tag'} > PHP</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag mysql-tag'} > MYSQL</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag html-tag'} > HTML</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag css-tag'} > CSS</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag js-tag'} > JS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
+    generateWork7(){
+        return (
+            <div className="text-font">
+                <div className="row" style={{paddingBottom: 20}}>
+                    <h2>Mountains</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
+                </div>
+                <div className="row">
+                    <div className="screenshots container row">
+                        <div className="col s12 m6">
+                            <img src={codehelper5} style={{height: 255, width: 555}} />
+                        </div>
+                        <div className="col s12 m6">
+                            <img src={codehelper2} style={{height: 255, width: 555}} />
+                        </div>
+                        <div className="col s12 m6">
+                            <img src={codehelper3} style={{height: 255, width: 555}}/>
+                        </div>
+                        <div className="col s12 m6">
+                            <img src={codehelper4} style={{height: 255, width: 555}}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="row" style={{marginTop: 50}}>
+                    <div className="about-work container" >
+                        <h4>
+                            Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        
+                        </h4>
+                    </div>
+                </div>
+                <div className=""  style={{ display:'flex',justifyContent: 'center', position: 'relative',marginTop: 50, marginBottom: 100}}>
+                    <div className="" style={{ paddingTop: 100, width: 455}}>
+                        <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
+                            <span className="text-font" style={{color: '#fff'}}>Languages</span>
+                        </div>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
+                                
+                                <div className="card-tag-row">
+                                    <span className={'card-tag php-tag'} > PHP</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag mysql-tag'} > MYSQL</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag html-tag'} > HTML</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag css-tag'} > CSS</span>
+                                </div>
+                                <div className="card-tag-row">
+                                    <span className={'card-tag js-tag'} > JS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
+    generateWork8(){
+        return (
+            <div className="text-font">
+                <div className="row" style={{paddingBottom: 20}}>
+                    <h2>Mountains</h2>
+                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                        <img src={git}></img>
+                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                    </div>  
+                </div>
+                <div className="row">
+                    <div className="screenshots container row">
+                        <div className="col s12 m6">
+                            <img src={hwr1} style={{height: 255, width: 555}} />
+                        </div>
+                        <div className="col s12 m6">
+                            <img src={hwr2} style={{height: 255, width: 555}} />
+                        </div>
+                        <div className="col s12 m6">
+                            <img src={hwr3} style={{height: 255, width: 555}}/>
+                        </div>
+                        <div className="col s12 m6">
+                            <img src={hwr4} style={{height: 255, width: 555}}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="row" style={{marginTop: 50}}>
+                    <div className="about-work container" >
+                        <h4>
+                            Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        
+                        </h4>
+                    </div>
+                </div>
+                <div className=""  style={{ display:'flex',justifyContent: 'center', position: 'relative',marginTop: 50, marginBottom: 100}}>
+                    <div className="" style={{ paddingTop: 100, width: 455}}>
+                        <div style={{ height: 50, backgroundColor: '#521547ad',display: 'flex', justifyContent: 'center', alignItems: 'center',  borderTopLeftRadius: 15,borderTopRightRadius: 15 }}>
+                            <span className="text-font" style={{color: '#fff'}}>Languages</span>
+                        </div>
+                        <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
+                            <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
                                 
                                 <div className="card-tag-row">
                                     <span className={'card-tag php-tag'} > PHP</span>

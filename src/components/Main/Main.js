@@ -12,10 +12,28 @@ const data = [
         langs: ['react', 'css','scss','js', 'bootstrap'],
     },
     {
+        id : 8,
+        title: 'Hardware Store',
+        backgroundClass : 'hwr-image',
+        langs: ['Html', 'css'],
+    },
+    {
+        id : 7,
+        title: 'Code Helper',
+        backgroundClass : 'codehelper-image',
+        langs: ['react', 'css'],
+    },
+    {
         id : 2,
         title: 'Blogs',
         backgroundClass : 'blogs-image',
         langs: ['react', 'css', 'materialize',],
+    },
+    {
+        id : 5,
+        title: 'My Garden',
+        backgroundClass : 'nameti-image',
+        langs: ['wordpress', 'css'],
     },
     {
         id : 3,
@@ -29,12 +47,6 @@ const data = [
         title: 'Converter',
         backgroundClass : 'converter-image',
         langs: ['react', 'css'],
-    },
-    {
-        id : 5,
-        title: 'My Garden',
-        backgroundClass : 'nameti-image',
-        langs: ['wordpress', 'css'],
     },
     {
         id : 6,
