@@ -81,7 +81,7 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Final project for ReactJS course. A website that provides the possibility of renting bicycles. The user can register or log in, select the desired number of items, add them to the cart and posibility to contact the admin.
+                          The final project for the ReactJS course. A website that provides the possibility of renting bicycles. The user can register or log in, select the desired number of items, add them to the cart, and the possibility to contact the admin.
                         </h4>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ export default class Work extends Component {
                     <h2>My Digital Diary</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                        <a href={"https://github.com/jelena000/domaci01_zad3.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/domaci01_zad3.git</a>
                     </div>  
                 </div>
                 <div className="row">
@@ -175,7 +175,7 @@ export default class Work extends Component {
                     <h2>Memory Game</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                        <a href={"https://github.com/jelena000/domaci01_zad2.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/domaci01_zad2.git</a>
                     </div>  
                 </div>
                 <div className="row">
@@ -224,7 +224,7 @@ export default class Work extends Component {
                     <h2>Converter</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                        <a href={"https://github.com/jelena000/domaci01_zad1.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/domaci01_zad1.git</a>
                     </div>  
                 </div>
                 <div className="row">
@@ -240,7 +240,7 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Currency converter is one of the tasks from react course. Provides the ability to convert 4 currencies
+                           The currency converter is one of the tasks from ReactJS course. Provides the ability to convert 4 currencies
                         </h4>
                     </div>
                 </div>
@@ -272,10 +272,6 @@ export default class Work extends Component {
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
                     <h2>My Garden</h2>
-                    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                        <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
-                    </div>  
                 </div>
                 <div className="row">
                     <div className="screenshots container row ">
@@ -329,7 +325,7 @@ export default class Work extends Component {
                     <h2>Mountains</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                        <a href={"#"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}></a>
                     </div>  
                 </div>
                 <div className="row">
@@ -351,7 +347,7 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        
+                             Website intended for lovers of nature, hiking tours, and excursions. The website allows users to restore or log in, view available hiking tours, and leave comments. The administrator can issue new cards with hiking tours or delete existing ones he can also delete users.
                         </h4>
                     </div>
                 </div>
@@ -390,10 +386,10 @@ export default class Work extends Component {
         return (
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
-                    <h2>Mountains</h2>
+                    <h2>CodeNotes</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                        <a href={"https://github.com/jelena000/codenotes.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}>https://github.com/jelena000/codenotes.git</a>
                     </div>  
                 </div>
                 <div className="row">
@@ -415,7 +411,7 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        
+                        CodeNotes is the web app in the making with an idea to allow developers to save their code snippets or files and make a note about them.
                         </h4>
                     </div>
                 </div>
@@ -426,21 +422,11 @@ export default class Work extends Component {
                         </div>
                         <div style={{ minHeight: 200, border: '1px solid #fff', backgroundColor: '#ccc4ee'}}>
                             <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
-                                
                                 <div className="card-tag-row">
-                                    <span className={'card-tag php-tag'} > PHP</span>
-                                </div>
-                                <div className="card-tag-row">
-                                    <span className={'card-tag mysql-tag'} > MYSQL</span>
-                                </div>
-                                <div className="card-tag-row">
-                                    <span className={'card-tag html-tag'} > HTML</span>
+                                    <span className={'card-tag html-tag'} > REACT</span>
                                 </div>
                                 <div className="card-tag-row">
                                     <span className={'card-tag css-tag'} > CSS</span>
-                                </div>
-                                <div className="card-tag-row">
-                                    <span className={'card-tag js-tag'} > JS</span>
                                 </div>
                             </div>
                         </div>
@@ -454,10 +440,10 @@ export default class Work extends Component {
         return (
             <div className="text-font">
                 <div className="row" style={{paddingBottom: 20}}>
-                    <h2>Mountains</h2>
+                    <h2>Hardware store</h2>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         <img src={git}></img>
-                        <a href={"https://github.com/jelena000/course-site.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/course-site.git</a>
+                        <a href={"https://github.com/jelena000/hardware-store.git"} target="_blank" style={{color:'black', fontSize:15, marginLeft:10}}> https://github.com/jelena000/hardware-store.git</a>
                     </div>  
                 </div>
                 <div className="row">
@@ -479,7 +465,8 @@ export default class Work extends Component {
                 <div className="row" style={{marginTop: 50}}>
                     <div className="about-work container" >
                         <h4>
-                            Website intended for lovers of nature, hiking tours and excursions. The website gives users the opportunity to restore or log in, view available hiking tours, leave comments. The administrator can issue new cards with hiking tours or delete existing ones, he can also delete users.                        
+                        A Hardware store is a web app where users can sell or buy hardware. After successful account creation, the user can see all products. The user can visit the specific product page and then he can like or comment. There is also a chat where the user can get in touch with the seller or answer messages from clients.
+
                         </h4>
                     </div>
                 </div>
@@ -492,19 +479,10 @@ export default class Work extends Component {
                             <div className='tags-container' style={{width :'100%', height :'100%', backgroundColor: '#7f7f7f3b',textAlign: 'left'}}>
                                 
                                 <div className="card-tag-row">
-                                    <span className={'card-tag php-tag'} > PHP</span>
+                                    <span className={'card-tag php-tag'} > HTML</span>
                                 </div>
                                 <div className="card-tag-row">
-                                    <span className={'card-tag mysql-tag'} > MYSQL</span>
-                                </div>
-                                <div className="card-tag-row">
-                                    <span className={'card-tag html-tag'} > HTML</span>
-                                </div>
-                                <div className="card-tag-row">
-                                    <span className={'card-tag css-tag'} > CSS</span>
-                                </div>
-                                <div className="card-tag-row">
-                                    <span className={'card-tag js-tag'} > JS</span>
+                                    <span className={'card-tag mysql-tag'} > CSS </span>
                                 </div>
                             </div>
                         </div>
