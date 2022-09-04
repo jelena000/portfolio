@@ -18,7 +18,7 @@ export default class Header extends Component {
                             <div className="col s12 centered-container " style={{ marginLeft : 0, marginTop : 0, height: 100}}>
                                  <a href="#" className="brand-logo header-font" >
                                     <span style={{fontSize: 30, fontWeight: 'bold', color:'black'}}>
-                                        JeLena
+                                        JeLena Radovanović
                                     </span>
                                 </a>
                             </div>
